@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.12)  6 NOV 2025 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.12)  6 NOV 2025 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -261,7 +261,7 @@ m Bau-pro-zess so-wohl des En-gi-nee-rings als auch der Manufacturing-
 texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dv
 ips/fontawesome/fontawesomeone.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/
 fontawesome/fontawesometwo.enc}]
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 152--160
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 154--162
 []$[]$ $[]$ 
  []
 
@@ -280,13 +280,13 @@ Here is how much of TeX's memory you used:
  33683 multiletter control sequences out of 15000+600000
  639273 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,79p,612b,297s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,79p,612b,296s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c
 :/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2025/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on curriculum_vitae_de.pdf (2 pages, 84808 bytes).
+Output written on curriculum_vitae_de.pdf (2 pages, 85057 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
