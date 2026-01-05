@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.12)  6 NOV 2025 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.12)  3 DEC 2025 07:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -276,7 +276,7 @@ L3 programming layer <2025-05-26>
 Here is how much of TeX's memory you used:
  5171 strings out of 467886
  82735 string characters out of 5438212
- 507640 words of memory out of 5000000
+ 507655 words of memory out of 5000000
  33683 multiletter control sequences out of 15000+600000
  639273 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -286,7 +286,7 @@ Here is how much of TeX's memory you used:
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2025/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on curriculum_vitae_de.pdf (2 pages, 85057 bytes).
+Output written on curriculum_vitae_de.pdf (2 pages, 85119 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
