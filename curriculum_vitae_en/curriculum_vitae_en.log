@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloade
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**curriculum_vitae_tabellarisch_de.tex
-(./curriculum_vitae_tabellarisch_de.tex
+**curriculum_vitae_en.tex
+(./curriculum_vitae_en.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (./resume.cls
@@ -98,69 +98,26 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 tex)) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/01/18 v26.1 The multilingual framework for LuaLaTeX, pdfLaT
-eX and XeLaTeX
-\babel@savecnt=\count287
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2078.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2080.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2082.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2083.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2084.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2086.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2111.
-\U@D=\dimen159
-\l@unhyphenated=\language8
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count288
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/de/babel-german.tex)
-
-Package babel Warning: The name 'german' with the 'ldf' mechanism is
-(babel)                currently assigned to the old 1901 variant of German.
-(babel)                For modern post-1996 German, use the name 'ngerman'.
-(babel)                Reported on input line 4330.
-
-Package babel Info: Importing font and identification data for german
-(babel)             from babel-de-1901.ini. Reported on input line 4330.
-(/usr/share/texlive/texmf-dist/tex/generic/babel-german/german.ldf
-Language: german 2024/12/10 v2.15 German support for babel (pre-1996 orthograph
-y)
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
-Language: germanb 2024/12/10 v2.15 German support for babel (pre-1996 orthograp
-hy)
-Package babel Info: Making " an active character on input line 139.
-)))
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box55
 \UL@hyphenbox=\box56
 \UL@skip=\skip53
 \UL@hook=\toks20
-\UL@height=\dimen160
-\UL@pe=\count289
-\UL@pixel=\dimen161
+\UL@height=\dimen159
+\UL@pe=\count287
+\UL@pixel=\dimen160
 \ULC@box=\box57
 Package: ulem 2019/11/18
-\ULdepth=\dimen162
+\ULdepth=\dimen161
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip54
-\enit@outerparindent=\dimen163
+\enit@outerparindent=\dimen162
 \enit@toks=\toks21
 \enit@inbox=\box58
-\enit@count@id=\count290
-\enitdp@description=\count291
+\enit@count@id=\count288
+\enitdp@description=\count289
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -179,8 +136,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen164
-\Gin@req@width=\dimen165
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 9.
@@ -190,13 +147,10 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
+\l__color_backend_stack_int=\count290
 )
-(./curriculum_vitae_tabellarisch_de.aux
-Package babel Info: 'german' activates 'german' shorthands.
-(babel)             Reported on input line 5.
-)
-\openout1 = `curriculum_vitae_tabellarisch_de.aux'.
+(./curriculum_vitae_en.aux)
+\openout1 = `curriculum_vitae_en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -217,19 +171,19 @@ LaTeX Font Info:    ... okay on input line 19.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(18.06749pt, 561.3729pt, 18.06749pt)
-* v-part:(T,H,B)=(7.22743pt, 819.75192pt, 18.06749pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=561.3729pt
-* \textheight=819.75192pt
-* \oddsidemargin=-54.2025pt
-* \evensidemargin=-54.2025pt
-* \topmargin=-102.04256pt
+* h-part:(L,W,R)=(28.90755pt, 531.18495pt, 54.2025pt)
+* v-part:(T,H,B)=(21.68121pt, 751.60756pt, 21.68121pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=531.18495pt
+* \textheight=751.60756pt
+* \oddsidemargin=-43.36244pt
+* \evensidemargin=-43.36244pt
+* \topmargin=-87.58878pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -249,16 +203,16 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen166
+\scratchcounter=\count291
+\scratchdimen=\dimen165
 \scratchbox=\box59
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count292
+\nofMParguments=\count293
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen167
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen166
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
 \everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -269,11 +223,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 19.
+LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
+nput line 19.
 
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
 ut line 19.
@@ -286,27 +240,21 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 19--19
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 39.
+(Font)              <10.95> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
+(Font)              <8> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-[1
+(Font)              <6> on input line 37.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/f
-ontawesome/fontawesomeone.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fo
-ntawesome/fontawesometwo.enc}]
+ontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+fontawesome/fontawesometwo.enc}]
 </home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_signat
 ure.png, id=12, 271.4943pt x 378.6948pt>
 File: /home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_s
@@ -314,35 +262,34 @@ ignature.png Graphic file (type png)
 <use /home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_si
 gnature.png>
 Package pdftex.def Info: /home/jarc/Nextcloud/100 Personal/110 Documents/Recurs
-os Gráficos/blue_signature.png  used on input line 123.
+os Gráficos/blue_signature.png  used on input line 168.
 (pdftex.def)             Requested size: 54.95242pt x 76.64998pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 114--126
+Overfull \hbox (2.08049pt too wide) in paragraph at lines 159--171
 []$[]$ $[]$ 
  []
 
 [2 </home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_sig
-nature.png>] (./curriculum_vitae_tabellarisch_de.aux)
+nature.png>] (./curriculum_vitae_en.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5993 strings out of 469461
- 95946 string characters out of 5467663
- 519538 words of memory out of 5000000
- 34593 multiletter control sequences out of 15000+600000
- 639855 words of font info for 63 fonts, out of 8000000 for 9000
+ 4853 strings out of 469461
+ 75228 string characters out of 5467663
+ 491024 words of memory out of 5000000
+ 33468 multiletter control sequences out of 15000+600000
+ 640031 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,9n,79p,625b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,79p,640b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on curriculum_vitae_tabellarisch_de.pdf (2 pages, 181900 bytes).
-
+Output written on curriculum_vitae_en.pdf (2 pages, 189941 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
