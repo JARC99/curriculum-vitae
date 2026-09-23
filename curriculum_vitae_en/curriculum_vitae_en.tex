@@ -9,6 +9,7 @@
 \usepackage{ulem}
 \usepackage{enumitem}
     \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage {graphicx}
 
 \name{José Alfredo Rosas Córdova} % Your name 
 \address{\faEnvelope{ jarosascordova@gmail.com}\hspace{0.75em}\faPhone{ +52 961 279 9900}}
@@ -160,7 +161,11 @@
             \textit{Place, Date}
         \end{minipage}
         \begin{minipage}{0.5\linewidth}
-            \uline{José Alfredo Rosas Córdova\hspace{5em}}\\
+            \uline{%
+            	José Alfredo Rosas Córdova%
+            	\rlap{\raisebox{-1.5em}[0pt][0pt]{\includegraphics[height=7em]{/home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_signature.png}}}%
+            	\hspace{5em}%
+            }\\
             \textit{Signature}
         \end{minipage}
     \end{rSection}

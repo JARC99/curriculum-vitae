@@ -9,6 +9,7 @@
 \usepackage{ulem}
 \usepackage{enumitem}
     \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
 
 \name{José Alfredo Rosas Córdova} % Your name 
 \address{\faEnvelope{ jose.alfredo.rosas.cordova@stud.uni-hannover.de}\hspace{0.75em}\faPhone{ +49 162 5197979}}
@@ -108,15 +109,19 @@
     \end{rSection}
 
     % === SIGNATURE ===
-    \begin{rSection}{}
-        \vspace{7.5em}
-        \begin{minipage}{0.5\linewidth}
-            \uline{Hannover \today}\\
-            \textit{Ort, Datum}
-        \end{minipage}
-        \begin{minipage}{0.5\linewidth}
-            \uline{José Alfredo Rosas Córdova\hspace{5em}}\\
-            \textit{Unterschrift}
-        \end{minipage}
-    \end{rSection}
+	\begin{rSection}{}
+		\vspace{7.5em}
+		\begin{minipage}{0.5\linewidth}
+			\uline{Hannover, \today}\\
+			\textit{Ort, Datum}
+		\end{minipage}
+		\begin{minipage}{0.5\linewidth}
+			\uline{%
+				José Alfredo Rosas Córdova%
+				\rlap{\raisebox{-1.5em}[0pt][0pt]{\includegraphics[height=7em]{/home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_signature.png}}}%
+				\hspace{5em}%
+			}\\
+			\textit{Unterschrift} 
+		\end{minipage}
+	\end{rSection}
 \end{document}
