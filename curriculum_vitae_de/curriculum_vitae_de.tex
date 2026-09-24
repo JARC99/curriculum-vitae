@@ -1,6 +1,6 @@
 \documentclass[a4paper]{resume} % Use the custom resume.cls style
 \usepackage{nopageno}
-\usepackage[left=0.25in,top=0.1in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[left=0.25in,top=0.15in,right=0.15in,bottom=0.25in]{geometry} % Document margins
 \usepackage{fontawesome}
 \usepackage{times}
     \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
@@ -9,10 +9,11 @@
 \usepackage{ulem}
 \usepackage{enumitem}
     \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
 
 \name{José Alfredo Rosas Córdova} % Your name 
 \address{\faEnvelope{ jose.alfredo.rosas.cordova@stud.uni-hannover.de}\hspace{0.75em}\faPhone{ +49 162 5197979}}
-\address{\faMapMarker{ Mendelssohnstraße 26C Zi. 213, 30173 Hannover}} % Your address
+\address{\faMapMarker{ Heidjerhof 3, Zi. 103, 30625 Hannover}} % Your address
 \address{\faBirthdayCake{ 22.10.1999}\hspace{0.75em}\faGlobe{ Guadalajara, Mexiko}}
 
 \begin{document}
@@ -20,10 +21,10 @@
     \begin{rSection}{Ausbildung}
 
         {\bf Maschinenbau, M. Sc.} \hfill {\itshape 10.2025 --- heute} 
-        \\{ \textit{Leibniz University Hannover}}
+        \\{ \textit{Leibniz Universität Hannover}}
         %\\ Notendurchschnitt: 97.97 (entspricht 1.2)
         
-        {\bf Luftfahrttechnik, B. Sc.} \hfill {\itshape 08.2017 --- 06.2023} 
+        {\bf Luftfahrttechnik, B. Eng.} \hfill {\itshape 08.2017 --- 06.2023} 
         \\{ \textit{Universidad Autónoma de Nuevo León}}
         \\ Abschluss mit summa cum laude
         %\\ Notendurchschnitt: 97.97 (entspricht 1.2)
@@ -36,7 +37,7 @@
     
     \begin{rSection}{Sprachen}
         \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-            Spanisch & Muttersprache\\
+            Spanisch & Muttersprachler\\
             Englisch & TOEFL ITP -- 677 Punkte (C1)\\
             Deutsch & TestDaF -- TDN 5 (C1)
         \end{tabular}
@@ -45,28 +46,26 @@
     \begin{rSection}{IT-Kenntnisse}
         \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
             CAD \& CAM: & PTC Creo, OnShape, SOLIDWORKS, Fusion 360 \\
-            Programming: & Python, MATLAB, C++\\
-	            Simulation \& Modelling: & ANSYS Mechanical, Fluent, Simulink, Xfoil\\
-            Others: & MS Office, Latex, GitHub\\
+            Programmierkenntnisse: & Python, MATLAB\\
+	        Simulation \& Modellierung: & ANSYS Mechanical, Fluent, Simulink, Xfoil\\
+            Andere: & MS Office, Oracle PLM \& ERP, \LaTeX, Git\\
         \end{tabular}
     \end{rSection}
 
     % ==== WORK EXPERIENCE SECTION ====
-\begin{rSection}{Berufserfahrung}
+	\begin{rSection}{Berufserfahrung}
 	
-		{\bf Studentische Hilfskraft} \hfill{\itshape 04/2026 --- heute} 
-		\\{\textit{\textbf{Vertiv} -- Monterrey, Mexico}}
+		{\bf Wissenschaftliche Hilfskraft} \hfill{\itshape 04.2026 --- heute} 
+		\\{\textit{\textbf{Institut für Turbomaschinen und Fluid-Dynamik} -- Hannover, Deutschland}}
 		\begin{itemize}
-			\item Entg von Testdaten zur Designvalidierung für die Überprüfung der Leistung neuer Produkte.
+			\item Nutzung spezialisierter Software zur Extraktion von Verformungsinformationen einer Windenergieanlage mit markierten Schaufeln mittels Digital Image Correlation-Techniken. 
+			\item Nachbearbeitung der erhaltenen großvolumigen Datensätze mit selbst- und weiterentwickelten Skripten mit Python und MATLAB, die stark auf parallele Programmierschemata angewiesen sind. Die Verarbeitungsschritte umfassten unter anderem die Klassifikation, Transformation und Abbildung der gemessenen Punkte sowie die Erstellung der für die folgenden Validierungsschritte benötigten Diagramme. 
+			\item: Intensiver Einsatz von Git-basierten Tools zur Verwaltung von Softwareversionen und zur sicheren Implementierung neuer Funktionalitäten.
+			\item Verwendung eines Blender-basierten digitalen Zwillings, um die Richtigkeit der implementierten Algorithmen zu validieren, bevor sie zur Auswertung realer experimenteller Daten verwendet werden.
 		\end{itemize}
 	
-      	{\bf Studentische Hilfskraft} \hfill{\itshape 01/2026 --- 03/2026} 
-		\\{\textit{\textbf{Vertiv} -- Monterrey, Mexico}}
-		\begin{itemize}
-			\item Entwi
-		\end{itemize}
 	
-        {\bf Mechanical Engineer} \hfill{\itshape 07/2023 --- 09/2025} 
+        {\bf Mechanical Engineer} \hfill{\itshape 07.2023 --- 09.2025} 
         \\{\textit{Entwicklung \& Einführung neuer Produkte, Hydronische Kühlung}}
         \\{\textit{\textbf{Vertiv} -- Monterrey, Mexico}}
         \begin{itemize}
@@ -76,7 +75,7 @@
             \item Verarbeitung von Testdaten zur Designvalidierung für die Überprüfung der Leistung neuer Produkte.
         \end{itemize}
         
-        {\bf Project Engineer - UAV Development} \hfill{\itshape 01/2023 --- 04/2023} 
+        {\bf Project Engineer - UAV Development} \hfill{\itshape 01.2023 --- 04.2023} 
         \\{\textit{\textbf{Spacelab MX} -- Monterrey, Mexico}}
         \begin{itemize}
             \item Bewertung der Durchführbarkeit des Missionskonzepts und dessen Verbesserung.
@@ -85,15 +84,14 @@
             \item Integration, Boden- und Flugerprobung des Prüfstandsflugzeugs.
         \end{itemize}
     
-        {\bf System Testing \& Mechanical Design Intern, Engineering Mechatronics Department} \hfill{\itshape 04/2022 --- 08/2022} 
-        \\{\textit{\textbf{Bosch Rexroth AG} -- Stuttgart, Germany}}
+        {\bf System Testing \& Mechanical Design Intern, Engineering Mechatronics Department} \hfill{\itshape 04.2022 --- 08.2022} 
+        \\{\textit{\textbf{Bosch Rexroth AG} -- Stuttgart, Deutschland}}
         \begin{itemize}
             \item Konzeption und Durchführung von Systemtests innerhalb einer Produktionsumgebung für autonome mobile Roboter (UGV) auf Basis zuvor definierter KPIs, die rund um die Kundenanforderungen von Beta-Testern etabliert wurden.
             \item Bewertung, Analyse und Fehlererkennung der Antriebsleistung der UGVs sowie der Kommunikationsschicht zwischen UGVs und Flottenmanagement-Service auf Basis von Testdaten.
             \item Handhabung und Wartung von autonomen mobilen Robotern.
             \item Mechanische Konstruktion von internen Hardwareelementen und Antriebsmechanismen.
             \item Prototyping von vorgeschlagenen Lösungen für das Komponentendesign neben der Validierung im Entwicklungskontext.
-            \item Beitrag zur kontinuierlichen Verbesserung der Produktqualität.
         \end{itemize}
     \end{rSection}
 
@@ -104,28 +102,16 @@
         \\{\textit{Centro de Investigación e Innovación en Ingeniería Aeronáutica in Mexiko}}
         
         \begin{itemize}
-            \item Wissenschaftliches und technologisches Forschungsunterstützungsprogramm \\ der UANL \hfill {\itshape 05.2021}
-            \begin{itemize}
-                \item \textit{Study of Unmanned Aerial Vehicles}. Projektnummer: IT1814-21
-            \end{itemize}
-            %\item XXII Sommerprogramm für wissenschaftliche und technologische Forschung\\ PROVERICYT \hfill {\itshape 07.2020}
-            %\begin{itemize}
-             %   \item \textit{Novel control methods for small aircraft}
-            %\end{itemize}
-
-            \item Allgemeine Wartungsarbeiten an Produktionsanlagen. Meistens, aber nicht beschränkt auf CNC-Maschinen (z. B. Hitzdrahtschneider, Tischfräsen und 3D-Drucker).
+        	
+	         \item Mitveröffentlichung eines Artikels zur Entwicklung, Manufaktur und Flugversuche meines Abschlussprojekts, wobei Faserverbundwerkstoffe ein wesentlicher Teil der Strukturkomponenten des Flugzeugs sind. Der Artikel wurde bei \textit{Aircraft Engineering and Aerospace Technology} eingereicht.\hfill {\itshape 09/2025}.		
+              \begin{itemize}
+	         	\item \textit{Design, Manufacture, and Testing of a Low-Cost Tilt-Rotor UAV: A Case Study}. (DOI: 10.1108/AEAT-05-2025-0168). 
+	         \end{itemize}
 
             \item Mitveröffentlichung eines Artikels zur Validierung von Potenzialströmungslösern in der Fachzeitschrift \textit{Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería}.\hfill {\itshape 11/2024}
             \begin{itemize}
                 \item \textit{Validation of VSPAERO for Basic Wing Simulation} (DOI: 10.23967/j.rimni.2024.10.56492). 
             \end{itemize}
-
-            \item Mitveröffentlichung eines Artikels zur Entwicklung, Manufaktur und Flugversuche meines Abschlussprojekts, wobei Faserverbundwerkstoffe ein wesentlicher Teil der Strukturkomponenten des Flugzeugs sind (d.h. Kohlenstoffverbundstoffe für tragende Flügelstrukturkomponenten und Glasverbundwerkstoffe in einem für die Haut der Flügel, die einen extrudierten Polystyrolschaumkern besaßen). Der Artikel wurde bei \textit{Aircraft Engineering and Aerospace Technology} eingereicht.\hfill {\itshape 09/2025}.
-            
-            \begin{itemize}
-                \item \textit{Design, Manufacture, and Testing of a Low-Cost Tilt-Rotor UAV: A Case Study}. (DOI: 10.1108/AEAT-05-2025-0168). 
-            \end{itemize}
-
         \end{itemize}
     \end{rSection}
     
@@ -133,21 +119,22 @@
     
     % === Extracurricular Section ===
     \begin{rSection}{Extracurriculare Aktivitäten}
-        {\bf Leitender Ingenieur, Axios Aero Design} \hfill {\itshape 07/2021 --- 06/2022} 
-        \\{\textit{Studentische Initiative}}
+      	{\bf Verein Mitglied} \hfill {\itshape 10/2025 --- today} 
+    	\\{\textit{\textbf{Akademischer Fliegergruppe Hannover e.V.}}}
+    	\vspace{-0.5em}
+    	\begin{itemize}
+    		\item Mitmachen beim Wartund und Instandhaltund der Räumlichkeiten und Flugzeuge des Vereins.
+    	\end{itemize}
+    	
+    	
+        {\bf Team Mitglied (u.a. Verfasser von Technischen Berichten, Leitender Ingenieur)} \hfill {\itshape 09.2019 --- 06.2022} 
+        \\{\textit{Axios Aero Design}}
         
         \begin{itemize}
+        	\item Erstellung eines technischen Berichts, der aus einer Dokumentation des Konstruktionsprozesses sowie aus technischen Zeichnungen besteht, die das Endprodukt beschreiben, das innerhalb SAE Design-Bettweberbe presentiert wurden.
             \item Konzept- und Vorentwurfsstudien von Flugzeugen, die Aerodynamik, Strukturen, elektrische Antriebe sowie Flugstabilität und -steuerung umfassen. 
-            \item Projektplanung und -ausführung auf der Grundlage von System-Engineering-Methoden.
-            \item Unterstützung bei der Detailkonstruktion von Flugzeugstrukturkomponenten wie Flügel-, Rumpf- und Leitwerksstrukturen.
+            \item Projektplanung und -ausführung auf der Grundlage von System-Engineering-Methoden und Unterstützung bei der Detailkonstruktion von Flugzeugstrukturkomponenten wie Flügel-, Rumpf- und Leitwerksstrukturen.
             \item Erste Praxiserfahrung mit der Herstellung von 3D-Gedrückten Teilen und Komponenten aus Verbundwerkstoffen. Validierung ihrer Umsetzung als Strukturtelekomponenten in einem Wettbewerb, in dem Balsaholzflugzeuge die Regel waren.
-        \end{itemize}
-
-        {\bf Verfasser von Technischen Berichten, Axios Aero Design} \hfill {\itshape 09/2020 --- 06/2021} 
-        \\{\textit{Studentische Initiative}}
-        
-        \begin{itemize}
-            \item Erstellung eines technischen Berichts, der aus einer Dokumentation des Konstruktionsprozesses sowie aus technischen Zeichnungen besteht, die das Endprodukt beschreiben.
         \end{itemize}
     \end{rSection}
     
@@ -163,13 +150,17 @@
 
     % === SIGNATURE ===
     \begin{rSection}{}
-        \vspace{7.5em}
+        \vspace{5em}
         \begin{minipage}{0.5\linewidth}
             \uline{Hannover \today}\\
             \textit{Ort, Datum}
         \end{minipage}
         \begin{minipage}{0.5\linewidth}
-            \uline{José Alfredo Rosas Córdova\hspace{5em}}\\
+            \uline{%
+            	José Alfredo Rosas Córdova%
+            	\hspace*{0.0em}\rlap{\raisebox{-1.75em}[0pt][0pt]{\includegraphics[height=7em]{/home/jarc/Nextcloud/100 Personal/110 Documents/Recursos Gráficos/blue_signature.png}}}%
+            	\hspace{5em}%
+            }\\
             \textit{Unterschrift}
         \end{minipage}
     \end{rSection}
